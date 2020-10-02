@@ -52,7 +52,6 @@ public class AddingMachine {
 	 * @return Nothing.
 	 */
 	public void subtract(int value) {
-		// Subtracts value to total and updates the history of the calculations
 		String val = String.valueOf(value);
 		history = history.concat(" - ");
 		history = history.concat(val);
@@ -66,7 +65,6 @@ public class AddingMachine {
 	 * @return A string of transaction data.
 	 */
 	public String toString() {
-		// Returns the string containing all calculation history
 		return history;
 	}
 
